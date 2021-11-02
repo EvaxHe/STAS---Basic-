@@ -114,3 +114,4 @@ poi = np.random.poisson(lam = lam, size = 100)
 plt.hist(poi)
 plt.axvline(x = lam, c = 'red') # lam = mean 
 ```
+[reference](https://towardsdatascience.com/seven-must-know-statistical-distributions-and-their-simulations-for-data-science-681c5ac41e32)
