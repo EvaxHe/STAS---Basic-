@@ -54,7 +54,7 @@ Model the number of failures before the first success in repeated, independent B
 
 ![image](https://user-images.githubusercontent.com/59746522/139779634-efdc2efb-c23a-4a4c-99b5-4efac40a6496.gif)
 
-## Uniform Distribution
+## 4. Uniform Distribution
 
 * Depending on the R.V, the distribution can be discrete or continuous
   * n outcomes (discrete)
@@ -68,7 +68,7 @@ uniform = np.random.uniform(0,1,size = 1000)
 plt.hist(uniform)
 ```
 
-## Normal Distribution 
+## 5. Normal Distribution 
 
 Continuous distribution - Many r.v are normally distributed b/c of the CLT 
 * the PDF is bell-shaped any symmetric at x=u 
@@ -94,7 +94,7 @@ def clt(N,n):
 clt(1000,100)
 ```
 
-## Poisson Distribution 
+## 6. Poisson Distribution 
 
 Poisson distribution is a distribution that models the probability of a num of evnts occuring in a fixed interval of time or space *eg. num of customers arriving in a store in an hour 
 
