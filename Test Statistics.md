@@ -99,6 +99,12 @@ if pval <0.05:
   print("we reject null hypothesis")
 ```
 
+## Probability Density Function (PDF) vs Cumulative Distribution Function (CDF)
+The CDF is the probability that random variable values less than or equal to x whereas the PDF is a probability that a random variable, say X, will take a value exactly equal to x.
+
+![image](https://user-images.githubusercontent.com/59746522/140399207-ac8fba7d-02c4-48c5-86c3-22131c005ee2.jpeg)
+
+
 
 [reference](https://towardsdatascience.com/hypothesis-testing-in-machine-learning-using-python-a0dc89e169ce)
  
